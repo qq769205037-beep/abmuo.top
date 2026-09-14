@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <!-- Google tag (gtag.js) 只发给 GA4 -->
+   <!-- Google tag (gtag.js) 只需加载 GA4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7NTFXKN2Z5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -13,7 +13,7 @@
 
 <script>
 function gtag_report_conversion(url) {
-  // 向 GA4 发送自定义点击事件
+  // 触发 GA4 事件
   gtag('event', 'whatsapp_click', {
       'event_category': 'engagement',
       'event_label': 'saudi_group'
